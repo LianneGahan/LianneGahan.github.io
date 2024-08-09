@@ -1,0 +1,23 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0 2em;
+}
+
+.card {
+  margin: 1em;
+}
