@@ -31,13 +31,13 @@ const ComputationalPharmaceuticalChemistryCard = () => {
             </Box>
 
             <CardMedia sx={{
-                padding: "1em", maxHeight: 400,
+                padding: "1em", maxHeight: 250,
                 margin: "0 auto",
                 width: "auto",
                 height: "auto"
             }}
                 component="img"
-                image="https://www.pharmchem.uni-hannover.de/fileadmin/_processed_/a/4/csm_pharmaceutical_chemistry_logo_78425641c7.png" // Replace with the actual image URL
+                image="https://www.pharmazie.hhu.de/fileadmin/_processed_/1/3/csm_CPC_darker_3b15810371.jpg" // Replace with the actual image URL
                 alt="Pharmaceutical Chemistry Group Logo"
             />
             <CardContent>

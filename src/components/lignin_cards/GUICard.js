@@ -27,7 +27,7 @@ const LigninGeneratorCard = () => {
     };
 
     return (
-        <Card sx={{ maxWidth: 600, margin: 'auto', marginTop: '2em' }}>
+        <Card sx={{margin: 'auto', marginTop: '2em' }}>
             <CardContent>
                 <Typography variant="h4" component="div" gutterBottom>
                     Build Your Lignin Molecule

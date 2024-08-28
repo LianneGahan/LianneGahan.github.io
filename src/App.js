@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Funding from './pages/Funding';
 import Contact from './pages/Contact';
+import Software from './pages/Software';
 import ScrollToTop from './components/ScrolltoTop';
 import Navbar from './components/Reactive_navbar';
 
@@ -95,6 +96,7 @@ class App extends Component {
             <Container maxWidth="xl">
               <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/software" element={<Software />} />
                 <Route path="/funding" element={<Funding />} />
                 <Route path="/contact-us" element={<Contact />} />
               </Routes>

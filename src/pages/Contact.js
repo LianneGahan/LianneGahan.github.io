@@ -2,6 +2,7 @@ import React from 'react';
 import AboutUsCard from '../components/AboutUsCard';
 import LinkedInCard from '../components/LinkedInCard';
 import EmailCard from '../components/EmailCard';
+import ComputationalPharmaceuticalChemistryCard from '../components/CPCCard';
 import { Card, Grid, Typography, Box } from '@mui/material';
 
 function Contact() {
@@ -29,15 +30,13 @@ function Contact() {
 
             {/* Contact Cards */}
             <Grid container spacing={3} justifyContent="center" sx={{ marginBottom: '2em' }}>
-                <Grid item xs={12} sm={6} md={4}>
-                    <LinkedInCard />
+                <Grid item xs={12} sm={6} md={6}>
+                    <ComputationalPharmaceuticalChemistryCard />
                 </Grid>
-                <Grid item xs={12} sm={6} md={4}>
+                <Grid item xs={12} sm={6} md={6}>
                     <AboutUsCard />
                 </Grid>
-                <Grid item xs={12} sm={6} md={4}>
-                    <EmailCard />
-                </Grid>
+
             </Grid>
 
             {/* Address Information */}

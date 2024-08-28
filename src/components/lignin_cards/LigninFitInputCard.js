@@ -47,7 +47,7 @@ const LigninBondCard = () => {
   };
 
   return (
-    <Card sx={{ maxWidth: 600, margin: 'auto', marginTop: '2em', padding: '1em', boxShadow: 3 }}>
+    <Card sx={{margin: 'auto', marginTop: '2em', padding: '1em', boxShadow: 3 }}>
       <CardContent>
         <Typography variant="h5" component="div" gutterBottom>
           Lignin Bond Simulation

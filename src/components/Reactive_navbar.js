@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 const pages = [
   { title: 'Home', path: '/' },
   { title: 'Funding', path: '/funding' },
-  { title: 'Get in touch', path: '/contact-us' }
+  { title: 'Get in touch', path: '/contact-us' },
+  { title: 'Softwares', path: '/software' }
+
 ];
 
 const Navbar = () => {
@@ -63,7 +65,7 @@ const Navbar = () => {
               display: { xs: 'none', md: 'flex' },
             }}
           >
-            LigninCraft
+            LigniFind: A Computational Toolkit for Lignin Simulation 
           </Typography>
           {/* Mobile Menu Button */}
           <Box sx={{ display: { xs: 'flex', md: 'none' }, flexGrow: 1 }}>
