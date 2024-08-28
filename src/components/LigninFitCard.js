@@ -47,7 +47,7 @@ const LigninFitCard = () => {
                     }}
                         component="img"
                         image={ligninfitlogo}
-                        alt=" lorem ipsum."
+                        alt=" The lignin Fit logo"
                     />
                 </Grid>
                 
