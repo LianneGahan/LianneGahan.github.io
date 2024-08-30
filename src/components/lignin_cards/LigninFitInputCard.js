@@ -98,7 +98,7 @@ const LigninBondCard = () => {
           Lignin Bond Simulation
         </Typography>
         <Typography variant="h6" component="div" gutterBottom>
-          Bond Types
+          Bond distribution
         </Typography>
         <Typography variant="body1" color="textSecondary" paragraph>
           Enter the percentages for the 7 different lignin bonds. The total should be 100%.
